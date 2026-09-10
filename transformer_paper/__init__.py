@@ -12,3 +12,4 @@ from .model import (
     subsequent_mask,
 )
 from .optim import NoamOptimizer, make_noam_optimizer
+from .translate import greedy_decode
