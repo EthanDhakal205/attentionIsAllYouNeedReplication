@@ -13,3 +13,4 @@ from .model import (
 )
 from .optim import NoamOptimizer, make_noam_optimizer
 from .translate import greedy_decode
+from .tokenizer import BPETokenizer
