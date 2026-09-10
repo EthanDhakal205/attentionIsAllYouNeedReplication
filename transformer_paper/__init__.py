@@ -1,5 +1,6 @@
 """Transformer implementation in PyTorch."""
 
+from .loss import LabelSmoothingLoss
 from .model import (
     MultiHeadAttention,
     Transformer,
@@ -10,3 +11,4 @@ from .model import (
     scaled_dot_product_attention,
     subsequent_mask,
 )
+from .optim import NoamOptimizer, make_noam_optimizer
